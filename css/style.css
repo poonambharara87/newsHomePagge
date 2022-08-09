@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Quicksand&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: white;
+}
+h2{
+    font-family: Poppins;
+    font-weight: 500;
+    margin: 40px 0px 20px 0px;
+}
+p{
+    font-size: 16px;
+    color:rgb(36, 34, 34);
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+}
+header{
+    position: relative;
+}
+h1{
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+#logo{
+    font-family: 'Montserrat';
+    font-size: 21px;
+    padding: 20px;
+    font-weight: bold;
+    position:absolute;
+    top:-10px;
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: black;
+    justify-content: center;
+    list-style: none;    
+}
+.nav-item{
+    justify-content: flex-end;
+    margin-left: 30px;
+    padding: 12px 15px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-family: Montserrat;
+    color:rgb(224, 215, 215);
+    align-items:center;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid yellowgreen;
+}
+
+.nav-link:active{
+    color:blue;
+    border-bottom: 0px;
+}
+.news-blog{
+    margin: 5% 20%;
+}
+
+ol, ul{
+    padding-left: 40px;
+}
+
+.list{
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 800px;
+    min-height: 500px;
+    max-width: 800px;
+    min-width: 500px;
+    padding: 50px 150px;
+    background-color: #5ea6d9;   
+}
+.form-group{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 30px;
+}
+input[type=text], input[type=password]{
+    width: 500px;
+    height: 50px;
+
+}
+input[type=checkbox], input[type=radio]{
+    margin-left: 20px;
+}
+input[type=submit]{
+    padding: 15px 54px;
+    font-size: 21px;
+    text-transform: uppercase;
+    border-radius: 42px;
+    border: none;
+    margin-left: 152px;
+    background-color: #116111;
+    color: #fff8f8;
+    font-weight: 600;
+    outline: none;
+}
+textarea{
+    width: 500px;
+    height: 250px;
+    font-size: 21px;
+    font-family: 'Poppins';
+    padding: 20px;
+}
